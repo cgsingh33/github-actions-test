@@ -12,6 +12,7 @@ jobs:
           ls
       - name: Checkout
         uses: actions/checkout@v1
+      - name: list fines after checkout
         run: |
           pwd
           ls -a
